@@ -1,4 +1,6 @@
 [core]
-    remote = storage
+    remote = tmp_remote
 ['remote "storage"']
     url = https://remote.dvc.org/get-started-pools
+['remote "tmp_remote"']
+    url = ../../tmp_dvc_storage
